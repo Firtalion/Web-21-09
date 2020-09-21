@@ -1,0 +1,14 @@
+﻿body {
+    background-color : white;
+    color:black;
+    font-size :20px;
+    width:100%;
+    margin:0px;
+    padding: 10px;
+}
+.Monstyle {
+    color:red;
+}
+#MonId {
+    color:green;
+}

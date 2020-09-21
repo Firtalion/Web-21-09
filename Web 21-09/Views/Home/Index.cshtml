@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <link href="~/StyleSheet/StyleSheet1.css?v2" rel="stylesheet" />
+    <style>
+        .Italique {
+            font-style: italic;
+        }
+    </style>
+    <script src="~/Scripts/MesScripts.js"></script>
+    <script>
+        function Message(formule) {
+            alert(formule);
+        }
+        function ShowName() {
+            //document.getElementById('Nom').value = "Wilfart"
+            $('#Nom').val('Wilfart');
+        }
+    </script>
+</head>
+<body>
+    <h1>Titre de niveau1</h1>
+    <p class="Monstyle Italique">Ceci est mon paragraphe</p>
+    <p id="MonId">Ceci est un autre paragraphe</p>
+    <div>
+
+    </div>
+    <button onclick="Message2('Bonjour à tous');"> formule de politesse</button>
+    <button onclick="ShowName()"> Show Wilfart</button>
+    <input id="Nom" type="text" />
+</body>
+</html>
+
+
